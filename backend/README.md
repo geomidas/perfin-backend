@@ -1,13 +1,13 @@
 # Backend
 The backend is build in JavaScript, using NodeJS
 
-### Start the backend
+## Start the backend
 ```
 cd ~/repos/public_repos/perfin/backend/
 npx nodemon --exec npx babel-node src/server.js
 ```
 
-### Send requests to the backend
+## Send requests to the backend
 You can use postman or a simple curl command
 
 ##### Send a GET request
