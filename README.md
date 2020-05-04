@@ -1,4 +1,4 @@
-# The PerFin app allows you to
+# PerFin - Personal Finance app that helps you
  - Track your monthly salary
  - Plan your monthly money allocation
  - Track your monthly debt repayments
