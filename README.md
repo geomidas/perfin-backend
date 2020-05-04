@@ -10,10 +10,10 @@ Personal Finance app that helps you...
 ## Run the app locally
 | Prerequisites   | Recommended | Links |
 | --------------- | ----------- | ----- |
-| Text editor     | vscode      | [install vscode](https://code.visualstudio.com/) |
-| CLI             | vscode      | [install vscode](https://code.visualstudio.com/) |
-| git client      | git         | [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) |
-| nodejs          | nodejs      | [install nodejs](https://www.npmjs.com/get-npm) |
+| Text editor     | vscode      | [install vscode](https://code.visualstudio.com/Download) |
+| CLI             | vscode      | [install vscode](https://code.visualstudio.com/Download) |
+| git client      | git         | [install git](https://git-scm.com/downloads) |
+| nodejs          | nodejs      | [install nodejs](https://nodejs.org/en/download/) |
 
 ###### Instructions:
 
