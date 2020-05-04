@@ -18,17 +18,17 @@ Prerequisites:
 ## Run the app locally
 
 1. Clone this repo
-```
-ls ~/repos/public_repos/ || mkdir ~/repos/public_repos/
-cd ~/repos/public_repos/
-git clone git@github.com:geomidas/perfin.git
-```
+	```
+	ls ~/repos/public_repos/ || mkdir ~/repos/public_repos/
+	cd ~/repos/public_repos/
+	git clone git@github.com:geomidas/perfin.git
+	```
 
 2. Start the frontend
-```
-cd ~/repos/public_repos/perfin/frontend
-npm start
-```
+	```
+	cd ~/repos/public_repos/perfin/frontend
+	npm start
+	```
 
 ## Built using
 - [React](https://reactjs.org/)
