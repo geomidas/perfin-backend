@@ -18,9 +18,4 @@ You can use postman or a simple curl command
 
 	url: `localhost:8000/hello`
 
-	with body: 
-	```
-	{
-		"name": "Whatever"
-	}
-	```
+	body: `{"name": "Whatever"}`
