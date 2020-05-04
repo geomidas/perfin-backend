@@ -10,8 +10,8 @@ Personal Finance app that helps you
 ## Prerequisites for running the app locally
 
 Prerequisites:
-- **Text editor** *(recommended: vscode)*
-- **CLI** *(recommended: vscode)*
+- **Text editor** *(recommended: [vscode](https://code.visualstudio.com/))*
+- **CLI** *(recommended: [vscode](https://code.visualstudio.com/))*
 - **git** *(Installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))*
 - **npm** and **nodejs** *(Instructions [here](https://www.npmjs.com/get-npm))*
 
