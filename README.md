@@ -1,5 +1,5 @@
 # PerFin
-Personal Finance app that helps you
+Personal Finance app that helps you...
  - Track your monthly salary
  - Plan your monthly money allocation
  - Track your monthly debt repayments
@@ -14,6 +14,8 @@ Personal Finance app that helps you
 | CLI             | [vscode](https://code.visualstudio.com/) |
 | git             | [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) |
 | nodejs          | [install nodejs](https://www.npmjs.com/get-npm) |
+
+###### Instructions:
 
 1. Clone this repo
 	```
