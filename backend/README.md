@@ -8,7 +8,7 @@ npx nodemon --exec npx babel-node src/server.js
 ```
 
 ## Send requests to the backend
-You can use postman or a simple curl command
+You can use `curl` commands or [postman](https://www.postman.com/)
 
  -  GET request
 
