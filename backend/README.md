@@ -1,5 +1,5 @@
 # Backend
-The backend is build in JavaScript, using NodeJS
+The backend is built in JavaScript, using NodeJS
 
 ## Start the backend
 ```
