@@ -14,7 +14,8 @@ You can use postman or a simple curl command
 
 	url: `localhost:8000/hello`
 
- - POST requests
+ - POST request
+
 	url: `localhost:8000/hello`
 
 	with body: 
