@@ -1,12 +1,12 @@
-## To run the web app locally
-
-### This app allows you to
+## This app allows you to
  - Track your monthly salary
  - Plan your monthly money allocation
  - Track your monthly debt repayments
  - Track your investments
  - Track your assets and net worth
  - Plan long term strategy towards financial independence
+
+## To run the web app locally
 
 Clone this repo
 ```
