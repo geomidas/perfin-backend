@@ -8,11 +8,12 @@ Personal Finance app that helps you
  - Plan long term strategy towards financial independence
 
 ## Run the app locally
-1. Prerequisites
-	- **Text editor** *(recommended: [vscode](https://code.visualstudio.com/))*
-	- **CLI** *(recommended: [vscode](https://code.visualstudio.com/))*
-	- **git** *(Installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))*
-	- **npm** and **nodejs** *(Instructions [here](https://www.npmjs.com/get-npm))*
+| Prerequisites   | Recommended |
+| --------------- | -------------- |
+| **Text editor** | [vscode](https://code.visualstudio.com/) |
+| **CLI**         | [vscode](https://code.visualstudio.com/) |
+| **git**         | [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) |
+| **nodejs**      | [install nodejs](https://www.npmjs.com/get-npm) |
 
 1. Clone this repo
 	```
