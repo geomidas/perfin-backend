@@ -11,14 +11,15 @@ npx nodemon --exec npx babel-node src/server.js
 You can use postman or a simple curl command
 
  -  GET request
- url: `localhost:8000/hello`
 
- - Send a POST request
-url: `localhost:8000/hello`
+	url: `localhost:8000/hello`
 
-with body: 
-```
-{
-	"name": "Whatever"
-}
-```
+ - POST requests
+	url: `localhost:8000/hello`
+
+	with body: 
+	```
+	{
+		"name": "Whatever"
+	}
+	```
