@@ -9,14 +9,14 @@ Personal Finance app that helps you
 
 ## To run the web app locally
 
-### 1. Clone this repo
+1. Clone this repo
 ```
 ls ~/repos/public_repos/ || mkdir ~/repos/public_repos/
 cd ~/repos/public_repos/
 git clone git@github.com:geomidas/perfin.git
 ```
 
-### 2. Start the frontend
+2. Start the frontend
 ```
 cd ~/repos/public_repos/perfin/frontend
 npm start
