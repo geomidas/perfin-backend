@@ -7,7 +7,14 @@ Personal Finance app that helps you
  - Track your assets and net worth
  - Plan long term strategy towards financial independence
 
-## To run the web app locally
+## Prerequisites for running the app locally
+
+Prerequisites:
+- Text editor (recommended: vscode)
+- CLI (recommended: vscode)
+- git (Installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+
+## Run the app locally
 
 1. Clone this repo
 ```
