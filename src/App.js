@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 import NavBar from "./NavBar.js";
 import HomePage from "./pages/HomePage.js";
 import FIPage from "./pages/FIPage.js";
@@ -11,6 +11,7 @@ import AssetsPage from "./pages/AssetsPage.js";
 import SalaryPage from "./pages/SalaryPage.js";
 import SpendingPage from "./pages/SpendingPage.js";
 import InvestmentsPage from "./pages/InvestmentsPage.js";
+import NotFoundPage from "./pages/NotFoundPage.js";
 import "./App.css";
 
 class App extends Component {
@@ -27,16 +28,19 @@ class App extends Component {
               justifyContent: "center",
             }}
           >
-            <Route path="/" component={HomePage} exact />
-            <Route path="/fi" component={FIPage} exact />
-            <Route path="/plan" component={PlanPage} exact />
-            <Route path="/debt" component={DebtPage} exact />
-            <Route path="/bills" component={BillsPage} exact />
-            <Route path="/about" component={AboutPage} exact />
-            <Route path="/assets" component={AssetsPage} exact />
-            <Route path="/salary" component={SalaryPage} exact />
-            <Route path="/spending" component={SpendingPage} exact />
-            <Route path="/investments" component={InvestmentsPage} exact />
+            <Switch>
+              <Route path="/" component={HomePage} exact />
+              <Route path="/fi" component={FIPage} />
+              <Route path="/plan" component={PlanPage} />
+              <Route path="/debt" component={DebtPage} />
+              <Route path="/bills" component={BillsPage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/assets" component={AssetsPage} />
+              <Route path="/salary" component={SalaryPage} />
+              <Route path="/spending" component={SpendingPage} />
+              <Route path="/investments" component={InvestmentsPage} />
+              <Route component={NotFoundPage} />
+            </Switch>
           </div>
         </div>
       </Router>
