@@ -11,6 +11,7 @@ const HomePage = () => (
         justifyContent: "center",
       }}
     >
+      <h2>This app allows you to</h2>
       <li>Track your monthly salary</li>
       <li>Plan your monthly money allocation</li>
       <li>Track your monthly debt repayments</li>

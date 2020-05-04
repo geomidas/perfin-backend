@@ -3,10 +3,7 @@ import React from "react";
 const SpendingPage = () => (
   <React.Fragment>
     <h1>My Monthly Spending</h1>
-    <p>
-      <i>Input your spending this month</i>
-    </p>
-    <table>
+    <table cellspacing="0" cellpadding="0">
       <tr>
         <th>Month</th>
         <th>Rent & Bills</th>
@@ -112,30 +109,64 @@ const SpendingPage = () => (
         <td>250</td>
       </tr>
       <tr>
+        <td>8/2019</td>
+        <td>900</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>9/2019</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <p>
+      <i>Input your spending this month, above^</i>
+    </p>
+    <br></br>
+    <br></br>
+    <br></br>
+    <table cellspacing="0" cellpadding="0">
+      <tr>
         <th>Total</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
-        <th>1840</th>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
+        <td>1840</td>
       </tr>
       <tr>
         <th>Average</th>
-        <th>840</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
-        <th>490</th>
+        <td>840</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
+        <td>490</td>
       </tr>
     </table>
   </React.Fragment>

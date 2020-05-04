@@ -43,6 +43,7 @@
   padding-top: 64px;
 }
 
+/* Navigation bar styling */
 nav {
   border-bottom: 4px solid rgb(58, 127, 230);
   text-align: center;
@@ -60,8 +61,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 nav a {
@@ -75,25 +76,28 @@ nav a:hover {
   color: rgb(255, 255, 255);
 }
 
-td {
-  padding: 14px;
+/* List styling */
+li {
+  text-align: left;
+  padding: 6px;
 }
 
-table tr:nth-child(even) {
-    background-color: rgb(247, 250, 255);
-}
-table tr:nth-child(odd) {
-    background-color:  rgb(241, 246, 255);
-
+/* Table styling */
+table {
+  border: "none";
+  font-size: small;
 }
 table th {
-  padding: 14px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px;
   color: black;
-  background-color:  rgb(222, 233, 252);
+  background-color: rgb(222, 233, 252);
 }
-
-li {
-    text-align: left;
+table tr:nth-child(even) {
+  background-color: rgb(247, 250, 255);
+}
+table tr:nth-child(odd) {
+  background-color: rgb(241, 246, 255);
+}
+table td {
+  padding: 10px;
 }
