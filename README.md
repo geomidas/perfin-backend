@@ -29,3 +29,8 @@ git clone git@github.com:geomidas/perfin.git
 cd ~/repos/public_repos/perfin/frontend
 npm start
 ```
+
+# Built using
+- [React](https://reactjs.org/)
+- [Nodejs](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com/)
