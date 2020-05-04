@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To run the web app locally
+
+Clone this repo
+```
+ls ~/repos/public_repos/ || mkdir ~/repos/public_repos/
+cd ~/repos/public_repos/
+git clone git@github.com:geomidas/perfin.git
+```
+
+Start the frontend
+```
+cd ~/repos/public_repos/perfin/frontend
+npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
