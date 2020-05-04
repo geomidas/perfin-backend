@@ -8,8 +8,6 @@ Personal Finance app that helps you
  - Plan long term strategy towards financial independence
 
 ## Prerequisites for running the app locally
-
-Prerequisites:
 - **Text editor** *(recommended: [vscode](https://code.visualstudio.com/))*
 - **CLI** *(recommended: [vscode](https://code.visualstudio.com/))*
 - **git** *(Installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))*
