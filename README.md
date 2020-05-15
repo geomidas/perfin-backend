@@ -1,6 +1,9 @@
 # PerFin
 
-Webapp implementation of [this spreadsheet](https://docs.google.com/spreadsheets/d/1OGleyNnVNXcRlVOE7s3qTceqyuhsC7ikigGE_oeAlMo/edit?usp=sharing)
+*Backstory:*
+*I couldn't find any app that would allow me to track my finances they way I wanted so I've created a spreadsheet. I'm happily using it for more than a year and made my life easier. However it's too complex and non-intuitive for others to use.*
+
+*This is a Webapp implementation of [this spreadsheet](https://docs.google.com/spreadsheets/d/1OGleyNnVNXcRlVOE7s3qTceqyuhsC7ikigGE_oeAlMo/edit?usp=sharing)*
 
 *Personal Finance app that helps you...*
  - *Track your monthly salary*
