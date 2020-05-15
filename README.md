@@ -1,4 +1,7 @@
 # PerFin
+
+Implementation of [this spreadsheet](https://docs.google.com/spreadsheets/d/1OGleyNnVNXcRlVOE7s3qTceqyuhsC7ikigGE_oeAlMo/edit?usp=sharing)
+
 *Personal Finance app that helps you...*
  - *Track your monthly salary*
  - *Plan your monthly money allocation*
