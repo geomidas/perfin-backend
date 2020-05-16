@@ -3,7 +3,7 @@
 *Backstory:*
 
 *I couldn't find any app that would allow me to track my finances they way I wanted so I created a spreadsheet. I'm happily using that for more than a year now and has made my life easier. However it's too complex and non-intuitive for others to use.*
-*So this is a Webapp implementation of [this spreadsheet](https://docs.google.com/spreadsheets/d/1OGleyNnVNXcRlVOE7s3qTceqyuhsC7ikigGE_oeAlMo/edit?usp=sharing)*
+*Tthis is a Webapp implementation of [this spreadsheet](https://docs.google.com/spreadsheets/d/1OGleyNnVNXcRlVOE7s3qTceqyuhsC7ikigGE_oeAlMo/edit?usp=sharing)*
 
 *Personal Finance app that helps you...*
  - *Track your monthly salary*
