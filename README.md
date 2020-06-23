@@ -1,42 +1,21 @@
-# PerFin
+# Backend
+The backend is built in JavaScript, using NodeJS
 
-*Backstory:*
+## Start the backend
+```
+cd ~/repos/public_repos/perfin/backend/
+npx nodemon --exec npx babel-node src/server.js
+```
 
-*I couldn't find any app that would allow me to track my finances they way I wanted so I created a spreadsheet. I'm happily using that for more than a year now and has made my life easier. However it's too complex and non-intuitive for others to use.*
-*Tthis is a Webapp implementation of [this spreadsheet](https://docs.google.com/spreadsheets/d/1OGleyNnVNXcRlVOE7s3qTceqyuhsC7ikigGE_oeAlMo/edit?usp=sharing)*
+## Send requests to the backend
+You can use `curl` commands or [postman](https://www.postman.com/)
 
-*Personal Finance app that helps you...*
- - *Track your monthly salary*
- - *Plan your monthly money allocation*
- - *Track your monthly debt repayments*
- - *Track your investments*
- - *Track your assets and net worth*
- - *Plan long term strategy towards financial independence*
+ -  GET request
 
-## Run the app locally
-| Prerequisites   | Recommended | Links |
-| --------------- | ----------- | ----- |
-| Text editor     | vscode      | [install vscode](https://code.visualstudio.com/Download) |
-| CLI             | vscode      | [install vscode](https://code.visualstudio.com/Download) |
-| git client      | git         | [install git](https://git-scm.com/downloads) |
-| nodejs          | nodejs      | [install nodejs](https://nodejs.org/en/download/) |
+	url: `localhost:8000/hello`
 
-###### Instructions:
+ - POST request
 
-1. Clone this repo
-	```
-	ls ~/repos/public_repos/ || mkdir ~/repos/public_repos/
-	cd ~/repos/public_repos/
-	git clone git@github.com:geomidas/perfin.git
-	```
+	url: `localhost:8000/hello`
 
-2. Start the frontend
-	```
-	cd ~/repos/public_repos/perfin/frontend
-	npm start
-	```
-
-## Built using
-- [React](https://reactjs.org/)
-- [Nodejs](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/)
+	body: `{"name": "Whatever"}`
