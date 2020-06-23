@@ -9,10 +9,12 @@
     "mongodb": "^3.5.9",
     "nodemon": "^2.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
   "scripts": {
     "start": "npx nodemon --exec npx babel-node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
