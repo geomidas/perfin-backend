@@ -11,6 +11,7 @@ jobs:
           path: ~/backend
       - node/with-cache:
           steps:
+            - run: ls
             - run: npm install
             - run: npm test
 workflows:
